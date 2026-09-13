@@ -134,4 +134,55 @@ print(type(numbers))
 print([x for x in dir(numbers) if not x.startswith("__")])
 
 This lets you discover Python yourself instead of memorizing every method.
-```
+
+
+### Other useful functions in python 
+
+
+*map()
+
+Transform every item
+
+Many → Many
+
+*filter()
+
+Select items
+
+Many → Fewer
+
+*reduce()
+
+Combine items
+
+Many → One
+
+*zip()
+
+Combine iterables
+
+Multiple → Tuples
+
+*enumerate()
+
+Index + value
+
+Index + Value
+
+*any()
+
+At least one is true
+
+Boolean
+
+*all()
+
+Everything is true
+
+Boolean
+
+*sorted()
+
+Sort items
+
+Sorted iterable
